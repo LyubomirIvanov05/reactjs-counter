@@ -1,0 +1,76 @@
+body{
+  background-color: #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.buttons button{
+  border-radius: 1rem;
+  padding: 8px 16px;
+}
+
+.buttons{
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+
+.counter-container{
+  background-color: white;
+  height: 400px;
+  width: 200px;
+  padding: 2rem 3.5rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+  font-size: 4rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.settings{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 2rem;
+  right: 2rem;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2px 0.25rem;
+}
+
+.settings h2{
+  text-align: center;
+}
+
+.settings input{
+  border: 1px solid darkgrey;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.settings button{
+  border: none;
+  background-color:white;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.settings button:hover{
+  background-color: lightgrey;
+
+}
+
+.settings-toggle-btn{
+  font-size: 2rem;
+}
